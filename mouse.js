@@ -270,7 +270,7 @@ function mouseInteraction() {
 
     clickMe.forEach((item) => {
       item.addEventListener("mouseenter", () => {
-        if (!item.classList.contains("active-team")) {
+        if (!item.parentElement.classList.contains("active-team")) {
           prevMouseText = mouseText.textContent;
           changeMouseText("Click me");
           scaleMouseUp();
@@ -287,7 +287,7 @@ function mouseInteraction() {
 
     clickMe.forEach((item) => {
       item.addEventListener("click", () => {
-        if (item.classList.contains("active-team")) {
+        if (item.parentElement.classList.contains("active-team")) {
           prevMouseText = mouseText.textContent;
           changeMouseText("");
           if (prevMouseText != "") {
