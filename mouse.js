@@ -8,7 +8,7 @@ window.onresize = windowSizeCheck;
 
 //ensure the script only runs in non touchscreen-only devices
 function windowSizeCheck() {
-  if (window.innerWidth > tabletSize) {
+  if (window.innerWidth > tabletSize && document.querySelector(".mouse")) {
     mouseInteraction();
   }
 }
