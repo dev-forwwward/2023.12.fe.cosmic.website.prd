@@ -51,11 +51,13 @@ html {
 /* Overriding The Default Text Selection Color With CSS */
 
 ::selection {
-  background: var(--purple); /* WebKit/Blink Browsers */
+  background: var(--purple);
+  /* WebKit/Blink Browsers */
 }
 
 ::-moz-selection {
-  background: var(--purple); /* Gecko Browsers */
+  background: var(--purple);
+  /* Gecko Browsers */
 }
 
 /* BTNS RESET */
@@ -65,7 +67,8 @@ select,
 textarea,
 button,
 a {
-  -webkit-tap-highlight-color: transparent !important; /* for removing the highlight */
+  -webkit-tap-highlight-color: transparent !important;
+  /* for removing the highlight */
 }
 
 a:focus,
@@ -84,7 +87,8 @@ div::-webkit-scrollbar,
 .main-content-ideas::-webkit-scrollbar,
 .main-content-post::-webkit-scrollbar,
 .main-content-connect::-webkit-scrollbar {
-  display: none; /* CHROME */
+  display: none;
+  /* CHROME */
 }
 
 body,
@@ -96,7 +100,8 @@ div,
 .main-content-post,
 .main-content-connect {
   -ms-overflow-style: none;
-  scrollbar-width: none; /* Firefox / EDGE  */
+  scrollbar-width: none;
+  /* Firefox / EDGE  */
 }
 
 /* Pages Webflow BARBA JS*/
@@ -125,6 +130,7 @@ div,
   background-color: var(--lime-green);
   width: 100%;
 }
+
 /*
 .page-about .section {
   min-height: 100vh;
@@ -195,7 +201,7 @@ div,
     height: 60px;
   }
 
-  .mouse > div {
+  .mouse>div {
     font-size: 0.9rem;
   }
 }
@@ -270,14 +276,12 @@ div,
     height: 100%;
     width: 7px;
     background: rgb(130, 59, 248);
-    background: linear-gradient(
-      0deg,
-      rgba(130, 59, 248, 1) 0%,
-      rgba(157, 210, 207, 1) 25%,
-      rgba(204, 255, 0, 1) 50%,
-      rgba(255, 184, 0, 1) 75%,
-      rgba(255, 114, 0, 1) 100%
-    );
+    background: linear-gradient(0deg,
+        rgba(130, 59, 248, 1) 0%,
+        rgba(157, 210, 207, 1) 25%,
+        rgba(204, 255, 0, 1) 50%,
+        rgba(255, 184, 0, 1) 75%,
+        rgba(255, 114, 0, 1) 100%);
     z-index: 11;
   }
 }
@@ -324,6 +328,7 @@ div,
 .page-connect .logo .logo-dynamic-color:hover svg path {
   fill: var(--white) !important;
 }
+
 /* End Page Connect */
 
 .desktop-menu {
@@ -415,12 +420,10 @@ div,
   width: 200vw;
   height: 100vh;
   background: rgb(0, 0, 0);
-  background: linear-gradient(
-    90deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(0, 0, 0, 1) 50%,
-    rgba(255, 255, 255, 0) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(0, 0, 0, 1) 50%,
+      rgba(255, 255, 255, 0) 100%);
 }
 
 .outer-menu-shape-rounded {
@@ -440,6 +443,7 @@ div,
   width: 100vh;
   height: 100vh;
 }
+
 /* MENU MOBILE DARK */
 
 .mobile-menu-dark .mobile-menu .logo-dynamic-color svg path {
@@ -563,6 +567,7 @@ body.page-team #container div canvas {
 }
 
 @media only screen and (max-width: 991px) {
+
   body #container,
   body #container div canvas {
     width: 100vw !important;
@@ -667,14 +672,12 @@ body.page-team #container div canvas {
   width: 100%;
   height: 100%;
   background: rgb(130, 59, 248);
-  background: linear-gradient(
-    90deg,
-    rgba(130, 59, 248, 1) 0%,
-    rgba(157, 210, 207, 1) 25%,
-    rgba(204, 255, 0, 1) 50%,
-    rgba(255, 184, 0, 1) 75%,
-    rgba(255, 114, 0, 1) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(130, 59, 248, 1) 0%,
+      rgba(157, 210, 207, 1) 25%,
+      rgba(204, 255, 0, 1) 50%,
+      rgba(255, 184, 0, 1) 75%,
+      rgba(255, 114, 0, 1) 100%);
   transition: var(--transition-1s);
 }
 
@@ -748,6 +751,14 @@ body.page-team #container div canvas {
 /* 									TEAM 									*/
 /* ###########################################################################*/
 
+.page-team>.main {
+  overflow: auto;
+}
+
+.page-team.menu-opened>.main {
+  overflow: hidden;
+}
+
 .accordion__item-team,
 .active-team {
   position: relative;
@@ -792,14 +803,12 @@ body.page-team #container div canvas {
   width: 100%;
   height: 100%;
   background: rgb(130, 59, 248);
-  background: linear-gradient(
-    90deg,
-    rgba(130, 59, 248, 1) 0%,
-    rgba(157, 210, 207, 1) 25%,
-    rgba(204, 255, 0, 1) 50%,
-    rgba(255, 184, 0, 1) 75%,
-    rgba(255, 114, 0, 1) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(130, 59, 248, 1) 0%,
+      rgba(157, 210, 207, 1) 25%,
+      rgba(204, 255, 0, 1) 50%,
+      rgba(255, 184, 0, 1) 75%,
+      rgba(255, 114, 0, 1) 100%);
   transition: var(--transition-1s);
 }
 
@@ -856,6 +865,7 @@ body.page-team #container div canvas {
 .accordion__item {
   cursor: pointer;
 }
+
 /*
   .accordion__item:hover {
 	border: 1px solid var(--purple);
@@ -902,6 +912,7 @@ body.page-team #container div canvas {
 .accordion__item {
   cursor: pointer;
 }
+
 /*
   .accordion__item:hover {
 	border: 1px solid var(--purple);
