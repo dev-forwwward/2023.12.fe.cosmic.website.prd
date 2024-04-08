@@ -752,11 +752,11 @@ body.page-team #container div canvas {
 /* ###########################################################################*/
 
 .page-team>.main {
-  overflow: auto;
+  overflow: auto !important;
 }
 
 .page-team.menu-opened>.main {
-  overflow: hidden;
+  overflow: hidden !important;
 }
 
 .accordion__item-team,
