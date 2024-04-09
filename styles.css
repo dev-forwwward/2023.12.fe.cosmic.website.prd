@@ -268,7 +268,9 @@ div,
 
 /* ---------- Gradient Line ---------- */
 @media only screen and (min-width: 1025px) {
-  .gradient-line::before {
+  .gradient-line::before,
+  .portfolio-main-wrapper::before,
+  .team-main-content::before {
     content: "";
     position: absolute;
     top: 0;

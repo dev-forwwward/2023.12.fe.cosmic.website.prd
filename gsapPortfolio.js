@@ -9,7 +9,7 @@ function pageTransitionPortfolio() {
     ease: "power2.out"
   });
 
-  tl_ideas.from(".h3-subtitle-partners", {
+  tl_ideas.from(".h2-subtitle-partners", {
     duration: 0.5,
     translateX: -50,
     opacity: 0,

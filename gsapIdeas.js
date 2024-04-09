@@ -12,7 +12,7 @@ function pageTransitionIdeas() {
     ease: "power2.out"
   });
 
-  tl_ideas.from(".h4-ideas", {
+  tl_ideas.from(".h1-ideas", {
     duration: 0.5,
     translateX: -50,
     opacity: 0,
