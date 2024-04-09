@@ -13,7 +13,7 @@ function pageTransitionConnect() {
     "<"
   );
 
-  tl_connect.from(".h3-connect", {
+  tl_connect.from(".contact-heading", {
     duration: 0.5,
     translateX: -50,
     opacity: 0,

@@ -615,12 +615,12 @@ body.page-team #container div canvas {
 /* 									ABOUT 									*/
 /* ###########################################################################*/
 
-.section-thre-about .col-one-about {
+.section-three-about .col-one-about {
   padding-top: 12vh;
   padding-bottom: 15vh;
 }
 
-.section-thre-about .col-2-about .pills-wrapper .pill-link {
+.section-three-about .col-2-about .pills-wrapper .pill-link {
   transform: rotate(-3deg);
 }
 
@@ -632,7 +632,7 @@ body.page-team #container div canvas {
   cursor: default;
 }
 
-.section-thre-about .col-2-about .pills-wrapper .pill-link:nth-child(2) {
+.section-three-about .col-2-about .pills-wrapper .pill-link:nth-child(2) {
   align-self: end;
   transform: rotate(3deg);
 }

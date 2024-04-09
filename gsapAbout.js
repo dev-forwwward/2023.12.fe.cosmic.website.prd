@@ -132,13 +132,13 @@ function aboutGSAP() {
 
   // Slide 3 - helmet zoom-in
   /*
-  .from(".section-thre-about .h4", {
+  .from(".section-three-about .h4", {
       opacity: 0,
       x: "-100%",
       y: "120%",
       duration: 1
     })
-    .from(".section-thre-about .pill-link", {
+    .from(".section-three-about .pill-link", {
       opacity: 0,
       y: "200%",
       duration: 1
@@ -164,29 +164,29 @@ function aboutGSAP() {
       "<"
     );
 
-  gsap.from(".section-thre-about h4", {
+  gsap.from(".section-three-about h4", {
     scrollTrigger: {
-      trigger: ".section-thre-about",
+      trigger: ".section-three-about",
       start: "top top",
       end: "+=150%",
       toggleActions: "play reverse play reverse",
       pin: true,
       pinSpacing: "margin",
-      pinnedContainer: ".section-thre-about"
+      pinnedContainer: ".section-three-about"
     },
     y: "-150%",
     opacity: 0
   });
 
-  gsap.from(".section-thre-about .pill-link", {
+  gsap.from(".section-three-about .pill-link", {
     scrollTrigger: {
-      trigger: ".section-thre-about",
+      trigger: ".section-three-about",
       start: "top top",
       end: "+=150%",
       toggleActions: "play reverse play reverse",
       pin: true,
       pinSpacing: "margin",
-      pinnedContainer: ".section-thre-about"
+      pinnedContainer: ".section-three-about"
     },
     delay: 1,
     duration: 0.8,
@@ -194,9 +194,9 @@ function aboutGSAP() {
     stagger: 0.25,
     opacity: 0
   });
-  /*  gsap.to(".section-thre-about h4", {
+  /*  gsap.to(".section-three-about h4", {
     scrollTrigger: {
-      trigger: ".section-thre-about",
+      trigger: ".section-three-about",
       toggleActions: "play reverse play reverse",
       start: "top top",
       scrub: true,
@@ -207,9 +207,9 @@ function aboutGSAP() {
     opacity: 0
   });
 
-  gsap.to(".section-thre-about .pill-link", {
+  gsap.to(".section-three-about .pill-link", {
     scrollTrigger: {
-      trigger: ".section-thre-about",
+      trigger: ".section-three-about",
       toggleActions: "play reverse play reverse",
       start: "top top",
       scrub: true,
