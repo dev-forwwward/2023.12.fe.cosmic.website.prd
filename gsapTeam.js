@@ -5,7 +5,7 @@ function pageTransitionTeam() {
     duration: 1.5,
     translateY: "100%",
     opacity: 0,
-    delay: 0.5,
+    delay: 0.25,
     ease: "power2.out"
   });
 
@@ -15,7 +15,7 @@ function pageTransitionTeam() {
       width: "0"
     },
     opacity: 0,
-    delay: 0.1,
+    delay: 0.05,
     ease: "power2.out"
   });
 
@@ -23,7 +23,7 @@ function pageTransitionTeam() {
     duration: 0.5,
     translateX: -50,
     opacity: 0,
-    delay: 0.3,
+    delay: 0.15,
     ease: "power2.out"
   });
 
@@ -33,9 +33,9 @@ function pageTransitionTeam() {
       duration: 1.0,
       translateY: 0,
       opacity: 0,
-      delay: 0.3,
+      delay: 0.15,
       ease: "power2.out",
-      stagger: 0.3
+      stagger: 0.15
     },
     "<"
   );

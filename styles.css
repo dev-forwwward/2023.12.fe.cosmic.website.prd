@@ -778,6 +778,7 @@ body.page-team #container div canvas {
 }
 
 .new-style .active-team,
+.new-style .active-team > div,
 .new-style .accordion__item-team:hover {
   opacity: 1 !important;
 }
